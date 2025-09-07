@@ -1,0 +1,110 @@
+{
+  "cards": [
+    {
+      "likes": [
+        "cf8b",
+        "cf8a"
+      ],
+      "name": "Байкал",
+      "link": "https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg",
+      "owner": {
+        "name": "Жак-Ив Кусто",
+        "about": "Исследователь океана",
+        "avatar": "https://i.pinimg.com/474x/1d/63/f6/1d63f657b9d65d69ee743672104b2241.jpg",
+        "cohort": "cohort-42"
+      },
+      "createdAt": "2019-07-05T08:10:57.741Z",
+      "id": "eb9a"
+    },
+    {
+      "likes": [],
+      "name": "Архыз",
+      "link": "https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg",
+      "owner": {
+        "name": "Жак-Ив Кусто",
+        "about": "Исследователь океана",
+        "avatar": "https://i.pinimg.com/474x/1d/63/f6/1d63f657b9d65d69ee743672104b2241.jpg",
+        "cohort": "cohort-42"
+      },
+      "createdAt": "2019-07-05T08:11:58.324Z",
+      "id": "124e"
+    },
+    {
+      "likes": [],
+      "name": "Челябинская область",
+      "link": "https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg",
+      "owner": {
+        "name": "Жак-Ив Кусто",
+        "about": "Исследователь океана",
+        "avatar": "https://i.pinimg.com/474x/1d/63/f6/1d63f657b9d65d69ee743672104b2241.jpg",
+        "cohort": "cohort-42"
+      },
+      "createdAt": "2019-07-05T08:12:58.324Z",
+      "id": "7ef7"
+    },
+    {
+      "likes": [],
+      "name": "Иваново",
+      "link": "https://pictures.s3.yandex.net/frontend-developer/cards-compressed/ivanovo.jpg",
+      "owner": {
+        "name": "Жак-Ив Кусто",
+        "about": "Исследователь океана",
+        "avatar": "https://i.pinimg.com/474x/1d/63/f6/1d63f657b9d65d69ee743672104b2241.jpg",
+        "cohort": "cohort-42"
+      },
+      "createdAt": "",
+      "id": "e129"
+    },
+    {
+      "likes": [],
+      "name": "Камчатка",
+      "link": "https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg",
+      "owner": {
+        "name": "Жак-Ив Кусто",
+        "about": "Исследователь океана",
+        "avatar": "https://i.pinimg.com/474x/1d/63/f6/1d63f657b9d65d69ee743672104b2241.jpg",
+        "cohort": "cohort-42"
+      },
+      "createdAt": "",
+      "id": "fd7b"
+    },
+    {
+      "likes": [],
+      "name": "Холмогорский район",
+      "link": "https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kholmogorsky-rayon.jpg",
+      "owner": {
+        "name": "Жак-Ив Кусто",
+        "about": "Исследователь океана",
+        "avatar": "https://i.pinimg.com/474x/1d/63/f6/1d63f657b9d65d69ee743672104b2241.jpg",
+        "cohort": "cohort-42"
+      },
+      "createdAt": "",
+      "id": "83ac"
+    },
+    {
+      "id": "b580",
+      "name": "fewfew",
+      "link": "https://i.pinimg.com/736x/c7/dc/8f/c7dc8f536fa53df26795e79dc3dee7ff.jpg",
+      "likes": [
+        "cf8a"
+      ],
+      "owner": {
+        "name": "Жак-Ив Кусто",
+        "about": "Исследователь океана",
+        "avatar": "https://i.pinimg.com/474x/1d/63/f6/1d63f657b9d65d69ee743672104b2241.jpg",
+        "cohort": "cohort-42",
+        "id": "cf8a"
+      },
+      "createdAt": "2025-09-06T13:58:28.015Z"
+    }
+  ],
+  "users": [
+    {
+      "name": "Жак-Ив Кусто",
+      "about": "Исследователь океана",
+      "avatar": "https://i.pinimg.com/736x/1c/96/7b/1c967b8b939f9e846e16712ca400ef5d.jpg",
+      "cohort": "cohort-42",
+      "id": "cf8a"
+    }
+  ]
+}

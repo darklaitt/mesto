@@ -27,7 +27,7 @@ function closeEsc(evt) {
   }
 }
 
-function openImage(image, title) {
+function openImage({link: image, name: title}) {
   cardModalImage.src = image;
   cardModalCaption.textContent = title;
   openModal(cardModal);

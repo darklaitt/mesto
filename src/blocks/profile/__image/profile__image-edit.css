@@ -1,0 +1,18 @@
+.profile__image-edit {
+  width: 121px;
+  height: 121px;
+  border: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: transparent url('../../../images/edit-icon.svg') no-repeat center;
+  position: absolute;
+  left: -1px;
+  opacity: 0;
+}
+
+.profile__image-edit:hover {
+  background-color: #000000CC;
+  cursor: pointer;
+  opacity: 1;
+}
