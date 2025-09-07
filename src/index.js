@@ -12,7 +12,6 @@ export const cardTemplate = document.querySelector('#card-template').content;
 const content = document.querySelector('.content');
 export const cardContainer = content.querySelector('.places__list');
 
-const popup = document.querySelector('.popup');
 export const addCard = document.querySelector('.popup_type_new-card');
 const addButton = document.querySelector('.profile__add-button');
 const closeAddButton = addCard.querySelector('.popup__close');
@@ -68,12 +67,7 @@ export const setAvatar = ({image}) => {
 }
 
 export function renderLoading(isLoading) {
-  if (isLoading) {
-    submitButton.textContent = 'Сохранение...'
-  }
-  else {
-    submitButton.textContent = 'Сохранить'
-  }
+    submitButton.textContent = isLoading ? 'Сохранение...' : 'Сохранить'
 }
  
 addButton.addEventListener('click', () => {
@@ -127,5 +121,6 @@ Promise.all([getUserInfo(), getInitialCard()])
       cardContainer.append(createCard(card, user, deleteCard, likeCard, openImage));
     })
   })
+  .catch(err => console.log(err))
 
 enableValidation(validationConfig);

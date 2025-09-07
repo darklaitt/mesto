@@ -54,8 +54,6 @@ export const clearValidation = (formElement, {submitButtonSelector, inputSelecto
   const inputList = Array.from(formElement.querySelectorAll(inputSelector));
   inputList.forEach((inputElement) => {
     hideInputError({formElement, inputElement, inputErrorClass, errorClass});
-    console.log(inputElement.validity)
-    console.log(formElement.checkValidity());
   })
   buttonValidity({formElement, inactiveButtonClass, submitButtonSelector});
 }
